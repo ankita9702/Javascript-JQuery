@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Javascript 1</title>
+		<script>
+			function sample(str){
+				if(str=="deloitte")
+					document.getElementById("hello").innerHTML = "This script is declared in head part: "+str;
+				else
+					alert("Not Valid!");
+			}
+		</script>
+	</head>
+	<body>
+		<h1>A Sample Javascript</h1>
+		<p id="hello">Displays text here</p>
+		<input type="button" value="click" onclick="sample('deloitte')"></button>
+	</body>
+</html>
